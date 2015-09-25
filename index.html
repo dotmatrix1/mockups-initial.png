@@ -1,32 +1,52 @@
-<!DOCTYPE html>
 <html>
-  <head>
-    <link href="css/application.css" rel="stylesheet">
-    <script src="js/vendor/jquery.min.js" type="text/javascript"></script>
-    <script src="js/vendor/underscore.js" type="text/javascript"></script>
-    <script src="js/application.js" type="text/javascript"></script>
-  </head>
   <body>
 
-    <div id="main-content">
-      <!-- The page width is 817px -->
-      <!-- Example of using the form CSS to help you out. -->
-      <form>
-        <div>
-          <label>Full Name</label>
-          <input name="name" type="text" required />
-        </div>
-        <div>
-          <label>Photo URL</label>
-          <input name="photo_url" />
-        </div>
-        <button type="submit">Create</button>
-      </form>
+    <h1>May the force be with you: Celebrity List</h1>
 
-      <hr />
+    <p>
+      Modify the included project to match the mockups bewlow. Feel free to use the included 3rd party libraries if they are useful to you but please don't add any others.
+    </p>
 
-      <!-- Employee list goes here. There is initial data for you in application.js -->
+    <p>
+      Task: Create this page: <a href="mockups/initial.png">mockups/initial.png</a>
+    </p>
 
-    </div>
+    <label>Details:</label>
+
+    <ul>
+      <li>Only needs to work in the latest version of Chrome.</li>
+      <li>Things should line up and look symmetrical but please don't bother measuring. Just estimate heights, widths, padding etc.</li>
+      <li>After adding a new celebrity, page should look like this (Mark added): <a href="mockups/after_addition.png">mockups/after_addition.png</a>
+        <ul>
+          <li>Don't worry about persistence or AJAX or anything like that.</li>
+          <li>Cards should occur in the order of addition with newest being at the top-left.</li>
+          <li>Don't worry about form validation, the photo is optional.</li>
+        </ul>
+      </li>
+      <li>The hover state for a card should look like this (top-left card, show the X): <a href="mockups/hover_state.png">mockups/hover_state.png</a></li>
+      <li>After clicking the X as shown on hover, the card should be removed from the page, and the other cards should fall into place.</li>
+      <li>Photo URL can be to any image on the internet.
+        <ul>
+          <li>Don't worry about proportionate scaling, just force it to a square.</li>
+          <li>If no photo is provided, the default image (included) should be shown</li>
+        </ul>
+      </li>
+    </ul>
+
+    <hr />
+
+    <h3>Additionally, please answer following:</h3>
+
+    <ul>
+      <li>Q: What would need to be done to make this an actually useful app?</li>
+      <li>A:</li>
+    </ul>
+
+    <h4>Would you mind taking a this brief survey after completing this? There's only one question, and it won't affect your chances of future employment with us.</h4>
+    <ul>
+      <li>Q: What did you think of this test?</li>
+      <li>A:</li>
+    </ul>
+
   </body>
 </html>
